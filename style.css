@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding:0;
   margin:0;
 }
 
 header {
+  z-index:999;
   padding-left:1rem;
   /* margin-bottom:2rem; */
   /* color:thistle; */
@@ -38,10 +42,10 @@ header a {
   font-family: 'Raleway', sans-serif;
 }
 
-header a:hover {
-  color:palevioletred;
+/* header a:hover {
+  /* color:thistle; */
   transition: all 1s;
-}
+} */
 
 header p {
   /* background-color: rgb(210, 210, 249, .4);  */
@@ -98,9 +102,9 @@ a {
 .boxes{
   /* margin:7rem; */
   width:40%;
-  margin-bottom:8rem;
-  display: flex;
-  flex-wrap:wrap;
+  margin-bottom:9rem;
+  /* display: flex;
+  flex-wrap:wrap; */
 }
 
 .image-box {
@@ -277,8 +281,17 @@ a {
 
 .button {
   height: 1.5rem;
+  
+  /* font-size:1rem; */
 }
-
+.button2{
+  height:1.5rem;
+  width:10%; 
+}
+.button2:hover img {
+  display: inline-block;
+  /* margin-bottom: -.35rem; */
+}
 .button:hover img {
   display: inline-block;
   /* margin-bottom: -.35rem; */
@@ -329,9 +342,44 @@ a {
 
 @media screen and (max-width: 1125px) {
 
-
+.writing-container-wrap{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+   align-content:center; 
+  flex-wrap:wrap;
+  width:100%;
+}
+.boxes{
+  width:70%;
+  margin-top:4rem;
 }
 
 @media screen and (max-width: 800px){
 
+}
+}
+
+footer{
+   /* padding-left:1rem; */
+  /* margin-bottom:2rem; */
+  /* color:thistle; */
+  font-size:35px;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+  /* margin-bottom:6rem; */
+  position: sticky;
+  top: 0;
+  align-items: center;
+  height:90px;
+  background-color:rgba(226, 210, 240, 0.7);
+}
+
+.contact-icons a{
+  color:orangered;
+}
+.contact-icons a:hover{
+color:rgb(222, 199, 243);
+transition:1s;
 }
