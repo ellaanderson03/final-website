@@ -1,0 +1,82 @@
+body{
+  font-family: 'Zilla Slab Highlight', cursive;
+  background-color:rgba(255, 204, 217, 0.24);
+}
+h1{
+ font-family: 'Zilla Slab Highlight', cursive;
+  color:rgb(247, 170, 189);
+}
+
+body{
+  font-family: 'Ruda', sans-serif;
+}
+.flexphoto{
+  width:30%;
+  display: flex;
+  align-content: center;
+}
+img{
+  width:100%;
+}
+.flex-images{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+}
+.baby{
+  width:100%;
+  height:50%;
+}
+.ned{
+  
+  width:100%;
+  margin:0;
+}
+.char{
+  width:60%;
+} 
+.mephoto{
+  display:flex;
+  width:100%;
+}
+.mephoto img{
+  width:100%;
+}
+.longisland{
+  display: flex;
+  padding:0;
+  margin-top:0;
+  align-content: center;
+}
+.em{
+  width:40%;
+}
+.han{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.sage{
+  width:100%;
+  /* margin:-2rem;; */
+}
+.threeflex{
+  display: flex;
+  justify-content: space-evenly;
+}
+.two-flex{
+  width:60%;
+  display: flex;
+  flex-direction: column;
+}
+.trees{
+  width:50%;
+}
+.final-flex{
+  width:40%;
+  display:flex;
+  flex-direction:column;
+}
+.work-stupid{
+  display:flex;
+}
