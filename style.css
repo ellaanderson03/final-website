@@ -56,7 +56,9 @@ header a {
 } */ 
 
 .title-writing {
-  margin:auto; }
+  margin:auto;
+  padding:1rem;
+  }
 
 .images-container {
   display: flex;
@@ -261,7 +263,23 @@ a {
   text-decoration: none;
   color:black;
 }
-
+.photography a{
+  color:orangered;
+  font-family: 'Zilla Slab', serif;
+}
+.photography a:hover{
+  color:rgba(226, 210, 240);
+  transition:3s;
+}
+.photography h1{
+  font-family: 'Zilla Slab', serif;
+}
+.photography{
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  /* font-family: 'Zilla Slab', serif; */
+}
 .read {
   margin-bottom:-1.5rem; 
   margin-top:-1rem;
@@ -350,7 +368,7 @@ a {
 }
 
 .photo-gallery a:hover{
- color:rgba(226, 210, 240);;
+ color:rgba(226, 210, 240);
   transition:2s;
 }
 .photo-gallery a{
@@ -381,7 +399,7 @@ a {
 }
 .boxes{
   width:70%;
-  margin-top:4rem;
+  margin-top:-5rem;
 }
 
 @media screen and (max-width: 800px){
